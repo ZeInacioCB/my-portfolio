@@ -2,9 +2,33 @@
 
 @theme {
   /* Custom colors */
-  --color-primary: #F48668;
-  --color-secondary: #3b82f6;
-  --color-accent: #f59e0b;
+  --color-main: #2D3436;
+  --color-main-background: #F2F6F7;
+  --color-main-background-hover: #E4EBED;
+  --color-main-background-active: #D1E0E5;
+  --color-primary: #00B4D8;
+  --color-secondary: #636E72;
+  --color-interactive: #00B4D8;
+  --color-interactive-hover: #0096C7;
+  --color-interactive-active: #A5D8A8;
+  --color-interactive-text: #FFFFFF;
+  --color-interactive-text-hover: #FFFFFF;
+  --color-interactive-text-active: #2D3436;
+  --color-border: #DFE6E9;
+  --color-border-hover: #B2BEC3;
+  --color-border-active: #636E72;
+  --color-accent: #A5D8A8;
+  --color-accent-hover: #B8B8FF;
+  --color-accent-active: #88A488;
+  --color-support: #00B894;
+  --color-support-hover: #00B894AA;
+  --color-support-active: #00B89488;
+
+  /* Custom font families */
+  --font-family-primary: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-family-default: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-family-mono: "Courier New", Courier, monospace;
 
   /* Custom font sizes */
   --font-size-2xl: 1.5rem;
@@ -17,18 +41,37 @@
 }
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: var(--font-family-primary);
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   /* color: rgba(255, 255, 255, 0.87); */
-  background-color: #242424;
+  background-color: var(--color-main-background);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  @apply bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* site-container is used to center the content vertically and horizontally */
+.site-container {
+  @apply flex justify-between gap-4;
+  @apply mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-16 lg:py-0;
+
+  header {
+    @apply lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[48%] lg:flex-col lg:justify-between lg:py-24;
+  }
 }
 
 a {
@@ -39,15 +82,6 @@ a {
 a:hover {
   color: #535bf2;
 }
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
