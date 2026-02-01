@@ -34,12 +34,16 @@ function LanguageSwitcher() {
             document.addEventListener('mousedown', handleClickOutside);
             document.body.style.overflow = 'hidden';
             setIsClosing(false);
-            setIsEntering(true); // Trigger entrance state
-            // Remove entering state after animation completes
-            const timer = setTimeout(() => setIsEntering(false), 300);
+
+            let timer;
+            if (isMobile) {
+                // isEntering is already set by click handler, handle cleanup
+                timer = setTimeout(() => setIsEntering(false), 300);
+            }
+
             return () => {
                 document.removeEventListener('mousedown', handleClickOutside);
-                clearTimeout(timer);
+                if (timer) clearTimeout(timer);
             };
         } else {
             document.removeEventListener('mousedown', handleClickOutside);
@@ -100,7 +104,13 @@ function LanguageSwitcher() {
         <div className="relative w-1/2 mx-auto sm:w-auto" ref={dropdownRef}>
             {/* Trigger Button */}
             <button
-                onClick={() => setIsOpen(!isOpen)}
+                onClick={() => {
+                    const nextState = !isOpen;
+                    setIsOpen(nextState);
+                    if (nextState && isMobile) {
+                        setIsEntering(true);
+                    }
+                }}
                 className="flex w-full sm:w-auto items-center justify-between sm:justify-start gap-2 px-3 py-2 sm:py-1.5 text-xs font-bold uppercase tracking-widest text-slate-400 transition-colors hover:text-teal-300 focus:outline-none bg-slate-800/50 rounded-md border border-slate-700/50 cursor-pointer"
                 aria-haspopup="listbox"
                 aria-expanded={isOpen}
