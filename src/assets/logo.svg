@@ -25,15 +25,15 @@
   </defs>
   
   <!-- Refined Z: Thinner bars, solid filled, with slightly rounded corners via stroke-linejoin -->
-  <path d="M 85,95 
+  <path d="M 85,81 
            H 215 
-           V 113 
-           L 110,212 
+           V 99 
+           L 110,198 
            H 215 
-           V 230 
+           V 216 
            H 85 
-           V 212 
-           L 190,113 
+           V 198 
+           L 190,99 
            H 85 
            Z" 
         fill="#5eead4" 
