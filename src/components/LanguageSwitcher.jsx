@@ -1,4 +1,4 @@
-import { AnimatePresence, motion, useMotionValue, useTransform } from 'framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
 import { useEffect, useRef, useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { useIsMobile } from '../hooks/useIsMobile';
@@ -8,10 +8,6 @@ function LanguageSwitcher() {
     const [isOpen, setIsOpen] = useState(false);
     const dropdownRef = useRef(null);
     const isMobile = useIsMobile();
-
-    // Framer Motion values for drag
-    const y = useMotionValue(0);
-    const opacity = useTransform(y, [0, 300], [1, 0]);
 
     const languages = [
         { code: 'en', label: 'English' },
@@ -96,34 +92,29 @@ function LanguageSwitcher() {
             {/* Mobile Bottom Drawer */}
             <AnimatePresence>
                 {isOpen && isMobile && (
-                    <div className="fixed inset-0 z-[100] flex items-end justify-center">
-                        {/* Backdrop */}
-                        <motion.div
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: 1 }}
-                            exit={{ opacity: 0 }}
-                            className="absolute inset-0 bg-slate-950/40 backdrop-blur-[2px]"
-                            onClick={() => setIsOpen(false)}
-                        />
-
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        className="fixed inset-0 z-[100] flex items-end justify-center bg-slate-950/40 backdrop-blur-[2px]"
+                        onClick={() => setIsOpen(false)}
+                    >
                         {/* Drawer Content */}
                         <motion.div
                             drag="y"
                             dragConstraints={{ top: 0, bottom: 0 }}
-                            dragElastic={{ bottom: 0.8, top: 0 }}
-                            style={{ y }}
+                            dragElastic={{ top: 0, bottom: 0.8 }}
                             onDragEnd={(_, info) => {
                                 if (info.offset.y > 100 || info.velocity.y > 500) {
                                     setIsOpen(false);
-                                } else {
-                                    y.set(0);
                                 }
                             }}
                             initial={{ y: "100%" }}
                             animate={{ y: 0 }}
                             exit={{ y: "100%" }}
-                            transition={{ type: "spring", damping: 25, stiffness: 200 }}
-                            className="relative w-full rounded-t-2xl bg-slate-900 p-6 shadow-2xl pb-12"
+                            transition={{ type: "spring", damping: 30, stiffness: 300, mass: 0.8 }}
+                            className="relative w-full rounded-t-3xl bg-slate-900 p-6 shadow-2xl pb-12 overflow-hidden"
+                            onClick={(e) => e.stopPropagation()}
                         >
                             {/* Drawer Handle */}
                             <div className="mx-auto mb-6 h-1.5 w-12 rounded-full bg-slate-700 active:bg-slate-600 transition-colors" />
@@ -137,7 +128,7 @@ function LanguageSwitcher() {
                                     <button
                                         key={lang.code}
                                         onClick={() => handleSelect(lang.code)}
-                                        className={`flex w-full items-center justify-between rounded-xl px-4 py-5 text-sm font-bold uppercase tracking-widest transition-colors active:bg-slate-800 border ${language === lang.code
+                                        className={`flex w-full items-center justify-between rounded-2xl px-5 py-5 text-sm font-bold uppercase tracking-widest transition-colors active:bg-slate-800 border ${language === lang.code
                                             ? 'bg-teal-400/10 text-teal-300 border-teal-300/30'
                                             : 'text-slate-300 bg-slate-800/50 border-transparent'
                                             }`}
@@ -159,7 +150,7 @@ function LanguageSwitcher() {
                                 </button>
                             </div>
                         </motion.div>
-                    </div>
+                    </motion.div>
                 )}
             </AnimatePresence>
         </div>
