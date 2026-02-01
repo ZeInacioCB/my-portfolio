@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark slate background mapping to Tailwind's slate-900 -->
+  <rect width="300" height="300" fill="#0f172a" rx="0"/>
+  
+  <defs>
+    <!-- Enhanced neon glow with higher intensity -->
+    <filter id="extraNeonGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="10" result="blur10"/>
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4" result="blur4"/>
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5" result="blur1.5"/>
+      <feFlood flood-color="#5eead4" flood-opacity="0.5" result="flood10"/>
+      <feFlood flood-color="#5eead4" flood-opacity="0.8" result="flood4"/>
+      <feFlood flood-color="#ffffff" flood-opacity="1" result="flood1.5"/>
+      <feComposite in="flood10" in2="blur10" operator="in" result="glow10"/>
+      <feComposite in="flood4" in2="blur4" operator="in" result="glow4"/>
+      <feComposite in="flood1.5" in2="blur1.5" operator="in" result="glow1.5"/>
+      <feMerge>
+        <feMergeNode in="glow10"/>
+        <feMergeNode in="glow4"/>
+        <feMergeNode in="glow1.5"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Refined Z: Thinner bars, solid filled, with slightly rounded corners via stroke-linejoin -->
+  <path d="M 85,95 
+           H 215 
+           V 113 
+           L 110,212 
+           H 215 
+           V 230 
+           H 85 
+           V 212 
+           L 190,113 
+           H 85 
+           Z" 
+        fill="#5eead4" 
+        stroke="#5eead4" 
+        stroke-width="6" 
+        stroke-linejoin="round"
+        filter="url(#extraNeonGlow)"/>
+</svg>
