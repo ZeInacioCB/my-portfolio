@@ -1,13 +1,23 @@
+import MouseGlower from '../components/MouseGlower.jsx';
+import { LanguageProvider } from '../context/LanguageContext';
 import Header from '../layout/Header.jsx';
 import Main from '../layout/Main.jsx';
-import './App.css';
+import '../styles/index.css';
 
 function App() {
   return (
-    <div className="site-container">
-      <Header />
-      <Main />
-    </div>
+    <LanguageProvider>
+      <div className="relative">
+        <MouseGlower />
+
+        <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
+          <div className="lg:flex lg:justify-between lg:gap-4">
+            <Header />
+            <Main />
+          </div>
+        </div>
+      </div>
+    </LanguageProvider>
   )
 }
 
