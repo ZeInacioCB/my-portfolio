@@ -12,9 +12,11 @@ function About() {
             </div>
             <div>
                 {t.about.paragraphs.map((paragraph, index) => (
-                    <p key={index} className="mb-4 text-slate-400">
-                        {paragraph}
-                    </p>
+                    <p
+                        key={index}
+                        className="mb-4 text-slate-400"
+                        dangerouslySetInnerHTML={{ __html: paragraph }}
+                    />
                 ))}
             </div>
         </section>
