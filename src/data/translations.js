@@ -24,25 +24,49 @@ export const translations = {
         },
         experience: [
             {
-                dates: '01/2024 — Present',
-                title: 'Senior Software Engineer',
-                company: 'Company',
-                link: 'https://example.com',
-                description: 'Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, and more.',
-                achievements: [],
-                tech: ['React', 'TypeScript', 'Tailwind CSS']
+                dates: '01/2025 — Present',
+                title: 'Software Engineer',
+                company: 'OddsScanner Group',
+                link: 'https://oddsscannergroup.com',
+                description: 'Work on the development and modernisation of large-scale, high-traffic web platforms, contributing across the stack with a strong focus on frontend engineering, performance, SEO, and scalability.',
+                achievements: [
+                    'Rebuilt a large-scale web platform from scratch, delivering a modern, responsive, and cross-platform user experience.',
+                    'Improved Google PageSpeed performance scores on key pages from ~60 to 75+',
+                    'Achieved 90+ Accessibility scores on key pages.',
+                    'Achieved SEO scores up to 100 on key pages.',
+                    'Optimised Core Web Vitals, reducing CLS by over 80% and improving LCP by more than 1 second on critical pages.',
+                    'Identified and resolved frontend issues in production, significantly reducing error logs and improving overall application reliability.',
+                ],
+                tech: ['React', 'NextJS', 'Tailwind CSS', 'JavaScript', 'Responsive Design', 'HTML & CSS', 'SEO', 'RestAPI']
             },
             {
-                dates: '06/2022 — 12/2023',
-                title: 'Software Engineer',
-                company: 'Previous Studio',
-                link: 'https://example.com',
-                description: 'Built and maintained various client projects using modern web technologies. Focused on performance and accessibility.',
+                dates: '01/2023 — 01/2025',
+                title: 'Junior Software Developer',
+                company: 'OddsScanner Group',
+                link: 'https://oddsscannergroup.com',
+                description: 'Built and maintained multiple custom projects using modern web technologies. Focused on performance, SEO and accessibility.',
                 achievements: [
-                    'Reduced bundle size by 30%',
-                    'Led the migration to Vite'
+                    'Developed and maintained modular, reusable UI components',
+                    'Supported 10+ websites with maintenance and feature updates',
+                    'Built 5+ websites using a custom WordPress and PHP stack, ensuring consistency, maintainability, and performance.',
+                    'Ongoing performance and SEO optimisation, focusing on page speed improvements, technical audits, and search rankings visibility.',
                 ],
-                tech: ['Next.js', 'PostgreSQL', 'Node.js']
+                tech: ['PHP', 'JavaScript', 'RestAPI', 'Responsive Design', 'Wordpress', 'MySQL', 'HTML & CSS', 'SEO']
+            },
+            {
+                dates: '01/2023 — 01/2025',
+                title: 'Software Developer',
+                company: 'Freelancer',
+                link: '#',
+                description: 'Collaborating with clients to design and build responsive, performance-focused web applications and features, working across the stack from frontend implementation to backend integrations.',
+                achievements: [
+                    'Developed a backend feature using PHP and WordPress to integrate and synchronize data with external platforms, ensuring seamless data flow with tools such as Atlas and Rainbow Map (rainbowmap.ilga-europe.org, contraception.srhrpolicyhub.org).',
+                    'Designed and built responsive frontend applications using Vanilla JavaScript and Bootstrap, with a strong focus on performance, accessibility, and cross-browser compatibility.',
+                    'Developed custom portfolio and showcase websites from scratch, handling layout, interactivity, and responsive design (e.g. rodrigoalb.com).',
+                    'Implemented frontend animations and interactive components using modern JavaScript to enhance user experience.',
+                    'Worked independently across the full development lifecycle, from requirements gathering and implementation to testing, deployment, and maintenance.',
+                ],
+                tech: ['React', 'NextJS', 'Tailwind CSS', 'Responsive Design', 'Prisma', 'PHP', 'Wordpress', 'MySQL', 'HTML & CSS', 'Bootstrap', 'JavaScript']
             }
         ],
         projects: [
@@ -96,10 +120,10 @@ export const translations = {
         },
         experience: [
             {
-                dates: '01/2024 — Presente',
-                title: 'Engenheiro de Software Sênior',
-                company: 'Empresa',
-                link: 'https://example.com',
+                dates: '01/2025 — Presente',
+                title: 'Software Engineer',
+                company: 'OddsScanner Group',
+                link: 'https://oddsscannergroup.com',
                 description: 'Entrega de código de produção robusto e de alta qualidade para uma gama diversificada de projetos para clientes como Harvard Business School, Everytown for Gun Safety e outros.',
                 achievements: [],
                 tech: ['React', 'TypeScript', 'Tailwind CSS']
