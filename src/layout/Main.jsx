@@ -5,7 +5,7 @@ import Projects from '../components/Projects';
 
 function Main() {
     return (
-        <main id="content" className="pt-24 lg:w-1/2 lg:py-24">
+        <main id="content" className="pt-20 lg:w-[52%] lg:py-24">
             <About />
             <Experience />
             <Projects />

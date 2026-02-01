@@ -44,7 +44,7 @@ function LanguageSwitcher() {
     };
 
     return (
-        <div className="relative w-1/2 mx-auto sm:w-auto" ref={dropdownRef}>
+        <div className="relative w-1/4 mx-auto sm:w-auto" ref={dropdownRef}>
             {/* Trigger Button */}
             <button
                 onClick={() => setIsOpen(!isOpen)}
