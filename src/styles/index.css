@@ -20,10 +20,34 @@
   --color-primary: var(--color-teal-300);
   --color-secondary: var(--color-slate-200);
   --color-background: var(--color-slate-900);
+  --color-surface: rgba(30, 41, 59, 0.5);
+  /* slate-800/50 */
+  --color-surface-hover: var(--color-slate-800);
+  --color-border: rgba(51, 65, 85, 0.5);
+  /* slate-700/50 */
   --color-text-main: var(--color-slate-400);
+  --color-text-muted: var(--color-slate-500);
+  --color-card-hover: rgba(30, 41, 59, 0.5);
+  /* slate-800/50 */
+}
 
-  /* Custom font families */
-  --font-family-primary: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+@media (prefers-color-scheme: light) {
+  :root {
+    /* Semantic overrides for light mode using standard CSS variable syntax */
+    --color-primary: #0d9488;
+    /* teal-600 */
+    --color-secondary: var(--color-slate-900);
+    --color-background: var(--color-slate-50);
+    --color-surface: var(--color-slate-100);
+    --color-surface-hover: var(--color-slate-200);
+    --color-border: var(--color-slate-300);
+    --color-text-main: var(--color-slate-600);
+    --color-text-muted: var(--color-slate-500);
+    --color-card-hover: rgba(226, 232, 240, 0.5);
+    /* slate-200/50 */
+    --color-glow: rgba(45, 212, 191, 0.15);
+    /* More vibrant teal glow for light mode */
+  }
 }
 
 :root {
@@ -31,7 +55,7 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: dark;
+  color-scheme: light dark;
   background-color: var(--color-background);
   color: var(--color-text-main);
 
@@ -49,7 +73,7 @@ body {
   min-height: 100vh;
   /* Applying background color to body as well for robustness on mobile */
   background-color: var(--color-background);
-  @apply bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900;
+  @apply bg-background leading-relaxed text-text-main antialiased selection:bg-primary selection:text-white;
 }
 
 /* Mouse follow background effect container */
@@ -60,7 +84,7 @@ body {
   z-index: 30;
   transition-duration: 300ms;
   background: radial-gradient(600px at var(--mouse-x, 0px) var(--mouse-y, 0px),
-      rgba(29, 78, 216, 0.15),
+      var(--color-glow, rgba(29, 78, 216, 0.15)),
       transparent 80%);
 }
 
@@ -75,5 +99,5 @@ body {
 
 /* Global link styles for content links (About paragraphs, etc.) */
 #content p a {
-  @apply font-medium text-slate-200 transition-colors hover:text-teal-300 focus-visible:text-teal-300;
+  @apply font-medium text-secondary transition-colors hover:text-primary focus-visible:text-primary;
 }

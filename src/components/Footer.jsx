@@ -6,16 +6,16 @@ function Footer() {
     const { t } = useLanguage();
 
     return (
-        <footer className="w-full pb-16 text-sm text-slate-500 sm:pb-0">
+        <footer className="w-full pb-16 text-sm text-text-muted sm:pb-0">
             <ScrollReveal width="full" delay={0.2}>
                 <div className="flex flex-col sm:flex-row justify-between items-center sm:items-start gap-6 sm:gap-4">
-                    <p className="flex-1 text-slate-500 text-center sm:text-left">
+                    <p className="flex-1 text-text-muted text-center sm:text-left">
                         {t.footer.text}{' '}
                         {t.footer.links.map((link, index) => (
                             <span key={link.name}>
                                 <a
                                     href={link.url}
-                                    className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
+                                    className="font-medium text-text-main hover:text-primary focus-visible:text-primary"
                                     target="_blank"
                                     rel="noreferrer"
                                 >

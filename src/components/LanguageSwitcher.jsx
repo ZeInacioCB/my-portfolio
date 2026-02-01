@@ -48,7 +48,7 @@ function LanguageSwitcher() {
             {/* Trigger Button */}
             <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="flex w-full sm:w-auto items-center justify-between sm:justify-start gap-2 px-3 py-2 sm:py-1.5 text-xs font-bold uppercase tracking-widest text-slate-400 transition-colors hover:text-teal-300 focus:outline-none bg-slate-800/50 rounded-md border border-slate-700/50 cursor-pointer"
+                className="flex w-full sm:w-auto items-center justify-between sm:justify-start gap-2 px-3 py-2 sm:py-1.5 text-xs font-bold uppercase tracking-widest text-text-main transition-colors hover:text-primary focus:outline-none bg-surface rounded-md border border-border cursor-pointer"
                 aria-haspopup="listbox"
                 aria-expanded={isOpen}
             >
@@ -71,14 +71,14 @@ function LanguageSwitcher() {
                         animate={{ opacity: 1, y: 0, scale: 1 }}
                         exit={{ opacity: 0, y: 10, scale: 0.95 }}
                         transition={{ duration: 0.2, ease: "easeOut" }}
-                        className="absolute bottom-full right-0 mb-2 w-32 origin-bottom-right rounded-md bg-slate-900 shadow-2xl ring-1 ring-white/10 focus:outline-none z-[100] overflow-hidden"
+                        className="absolute bottom-full right-0 mb-2 w-32 origin-bottom-right rounded-md bg-background shadow-2xl ring-1 ring-white/10 focus:outline-none z-[100] overflow-hidden border border-border"
                     >
                         <div className="py-1">
                             {languages.map((lang) => (
                                 <button
                                     key={lang.code}
                                     onClick={() => handleSelect(lang.code)}
-                                    className={`block w-full px-4 py-2 text-left text-xs font-bold uppercase tracking-widest transition-colors hover:bg-slate-800 cursor-pointer ${language === lang.code ? 'text-teal-300' : 'text-slate-400'
+                                    className={`block w-full px-4 py-2 text-left text-xs font-bold uppercase tracking-widest transition-colors hover:bg-surface-hover cursor-pointer ${language === lang.code ? 'text-primary' : 'text-text-main'
                                         }`}
                                 >
                                     {lang.label}
@@ -96,7 +96,7 @@ function LanguageSwitcher() {
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
-                        className="fixed inset-0 z-[100] flex items-end justify-center bg-slate-950/40 backdrop-blur-[2px]"
+                        className="fixed inset-0 z-[100] flex items-end justify-center bg-black/40 backdrop-blur-[2px]"
                         onClick={() => setIsOpen(false)}
                     >
                         {/* Drawer Content */}
@@ -113,13 +113,13 @@ function LanguageSwitcher() {
                             animate={{ y: 0 }}
                             exit={{ y: "100%" }}
                             transition={{ type: "spring", damping: 30, stiffness: 300, mass: 0.8 }}
-                            className="relative w-full rounded-t-3xl bg-slate-900 p-6 shadow-2xl pb-12 overflow-hidden"
+                            className="relative w-full rounded-t-3xl bg-background p-6 shadow-2xl pb-12 overflow-hidden border-t border-border"
                             onClick={(e) => e.stopPropagation()}
                         >
                             {/* Drawer Handle */}
-                            <div className="mx-auto mb-6 h-1.5 w-12 rounded-full bg-slate-700 active:bg-slate-600 transition-colors" />
+                            <div className="mx-auto mb-6 h-1.5 w-12 rounded-full bg-border active:bg-text-muted transition-colors" />
 
-                            <h3 className="mb-6 text-center text-xs font-bold uppercase tracking-widest text-slate-500">
+                            <h3 className="mb-6 text-center text-xs font-bold uppercase tracking-widest text-text-muted">
                                 Select Language
                             </h3>
 
@@ -128,9 +128,9 @@ function LanguageSwitcher() {
                                     <button
                                         key={lang.code}
                                         onClick={() => handleSelect(lang.code)}
-                                        className={`flex w-full items-center justify-between rounded-2xl px-5 py-5 text-sm font-bold uppercase tracking-widest transition-colors active:bg-slate-800 border ${language === lang.code
-                                            ? 'bg-teal-400/10 text-teal-300 border-teal-300/30'
-                                            : 'text-slate-300 bg-slate-800/50 border-transparent'
+                                        className={`flex w-full items-center justify-between rounded-2xl px-5 py-5 text-sm font-bold uppercase tracking-widest transition-colors active:bg-surface-hover border ${language === lang.code
+                                            ? 'bg-primary/10 text-primary border-primary/30'
+                                            : 'text-secondary bg-surface border-transparent'
                                             }`}
                                     >
                                         <span>{lang.label}</span>
@@ -144,7 +144,7 @@ function LanguageSwitcher() {
 
                                 <button
                                     onClick={() => setIsOpen(false)}
-                                    className="mt-4 w-full rounded-xl px-4 py-4 text-xs font-bold uppercase tracking-widest text-slate-500 transition-colors active:text-slate-300"
+                                    className="mt-4 w-full rounded-xl px-4 py-4 text-xs font-bold uppercase tracking-widest text-text-muted transition-colors active:text-text-main"
                                 >
                                     Cancel
                                 </button>

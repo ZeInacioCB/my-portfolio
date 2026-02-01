@@ -6,7 +6,7 @@ const ResumeButton = () => {
 
     return (
         <a
-            className="inline-flex items-center font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 active:text-teal-300 active:scale-95 transition-all group/link text-base"
+            className="inline-flex items-center font-medium leading-tight text-secondary hover:text-primary focus-visible:text-primary active:text-primary active:scale-95 transition-all group/link text-base"
             href={t.resumeUrl}
             target="_blank"
             rel="noreferrer"
@@ -18,11 +18,11 @@ const ResumeButton = () => {
                 whileInView={{
                     textShadow: [
                         "0 0 0px rgba(94, 234, 212, 0)",
-                        "0 0 20px rgba(94, 234, 212, 0.8)",
+                        "0 0 20px rgba(94, 234, 212, 0.4)",
                         "0 0 0px rgba(94, 234, 212, 0)"
                     ],
-                    filter: ["brightness(1)", "brightness(1.2)", "brightness(1)"],
-                    color: ["#e2e8f0", "#5eead4", "#e2e8f0"]
+                    filter: ["brightness(1)", "brightness(1.1)", "brightness(1)"],
+                    color: ["var(--color-secondary)", "var(--color-primary)", "var(--color-secondary)"]
                 }}
                 viewport={{ once: false, amount: 0.8 }}
                 transition={{
