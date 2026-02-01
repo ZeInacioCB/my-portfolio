@@ -1,5 +1,6 @@
 import { useLanguage } from '../context/LanguageContext';
 import ProjectCard from './ProjectCard';
+import ScrollReveal from './ScrollReveal';
 
 function Projects() {
     const { t } = useLanguage();
@@ -14,7 +15,9 @@ function Projects() {
             <div>
                 <ul className="group/list">
                     {t.projects.map((project, index) => (
-                        <ProjectCard key={index} project={project} />
+                        <ScrollReveal key={index} delay={index * 0.1} width="full">
+                            <ProjectCard project={project} />
+                        </ScrollReveal>
                     ))}
                 </ul>
             </div>

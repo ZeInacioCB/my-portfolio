@@ -1,7 +1,8 @@
+import ScrollReveal from '../components/ScrollReveal';
 import { useLanguage } from '../context/LanguageContext';
 
 function About() {
-    const { t, language } = useLanguage();
+    const { t } = useLanguage();
 
     return (
         <section id="about" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="About me">
@@ -12,11 +13,12 @@ function About() {
             </div>
             <div>
                 {t.about.paragraphs.map((paragraph, index) => (
-                    <p
-                        key={index}
-                        className="mb-4 text-slate-400"
-                        dangerouslySetInnerHTML={{ __html: paragraph }}
-                    />
+                    <ScrollReveal key={index} delay={index * 0.1} width="full" margin="0px">
+                        <p
+                            className="mb-4 text-slate-400"
+                            dangerouslySetInnerHTML={{ __html: paragraph }}
+                        />
+                    </ScrollReveal>
                 ))}
             </div>
         </section>

@@ -61,9 +61,11 @@ function Header() {
                 <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
                     <a href="/">{t.header.name}</a>
                 </h1>
+
                 <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
                     {t.header.title}
                 </h2>
+
                 <p className="mt-4 max-w-xs leading-normal">
                     {t.header.description}
                 </p>
@@ -76,12 +78,12 @@ function Header() {
                                 <li key={item.id}>
                                     <a className="group flex items-center py-3" href={item.href}>
                                         <span className={`nav-indicator mr-4 h-px transition-all motion-reduce:transition-none ${isActive
-                                                ? 'w-16 bg-slate-200'
-                                                : 'w-8 bg-slate-600 group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200'
+                                            ? 'w-16 bg-slate-200'
+                                            : 'w-8 bg-slate-600 group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200'
                                             }`}></span>
                                         <span className={`nav-text text-xs font-bold uppercase tracking-widest transition-colors ${isActive
-                                                ? 'text-slate-200'
-                                                : 'text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200'
+                                            ? 'text-slate-200'
+                                            : 'text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200'
                                             }`}>
                                             {item.name}
                                         </span>

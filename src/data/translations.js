@@ -67,7 +67,9 @@ export const translations = {
                 { name: 'Vite', url: 'https://vitejs.dev' },
                 { name: 'Vercel', url: 'https://vercel.com' }
             ]
-        }
+        },
+        viewResume: 'View Full Resume',
+        resumeUrl: '/resume-en.pdf'
     },
     pt: {
         header: {
@@ -119,7 +121,9 @@ export const translations = {
                 { name: 'Vite', url: 'https://vitejs.dev' },
                 { name: 'Vercel', url: 'https://vercel.com' }
             ]
-        }
+        },
+        viewResume: 'Ver Currículo Completo',
+        resumeUrl: '/resume-pt.pdf'
     },
     es: {
         header: {
@@ -171,6 +175,8 @@ export const translations = {
                 { name: 'Vite', url: 'https://vitejs.dev' },
                 { name: 'Vercel', url: 'https://vercel.com' }
             ]
-        }
+        },
+        viewResume: 'Ver Currículum Completo',
+        resumeUrl: '/resume-es.pdf'
     }
 };
