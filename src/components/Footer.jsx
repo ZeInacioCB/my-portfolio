@@ -6,8 +6,8 @@ function Footer() {
 
     return (
         <footer className="w-full pb-16 text-sm text-slate-500 sm:pb-0">
-            <div className="flex flex-col sm:flex-row justify-between items-start gap-4">
-                <p className="flex-1 text-slate-500">
+            <div className="flex flex-col sm:flex-row justify-between items-center sm:items-start gap-6 sm:gap-4">
+                <p className="flex-1 text-slate-500 text-center sm:text-left">
                     {t.footer.text}{' '}
                     {t.footer.links.map((link, index) => (
                         <span key={link.name}>
@@ -23,7 +23,7 @@ function Footer() {
                         </span>
                     ))}
                 </p>
-                <div className="flex-shrink-0 self-center sm:self-auto">
+                <div className="w-full sm:w-auto flex-shrink-0">
                     <LanguageSwitcher />
                 </div>
             </div>
