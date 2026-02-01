@@ -2,11 +2,11 @@ export const translations = {
     en: {
         header: {
             name: "Zé Inácio Castelo Branco",
-            title: "Software Developer",
-            description: "I build accessible, inclusive products and digital experiences for the web.",
+            title: "Software Engineer",
+            description: "Driven to build scalable, high-performance, and SEO-driven web applications.",
             socials: [
-                { id: 'github', url: 'https://github.com/zeinacio' },
-                { id: 'linkedin', url: 'https://linkedin.com/in/zeinacio' }
+                { id: 'github', url: 'https://github.com/ZeInacioCB' },
+                { id: 'linkedin', url: 'https://www.linkedin.com/in/jose-inacio-castelo-branco/' }
             ]
         },
         nav: {
@@ -16,8 +16,10 @@ export const translations = {
         },
         about: {
             paragraphs: [
-                "Back in 2012, I decided to try my hand at creating custom Tumblr themes and tumbled head first into the rabbit hole of coding and web design. Fast-forward to today, and I’ve had the privilege of building software for an advertising agency, a start-up, a huge corporation, and a digital product studio.",
-                "My main focus these days is building accessible, inclusive products and digital experiences for a variety of clients."
+                "I’m a Software Engineer and Frontend Engineer with 3+ years of experience building fast, scalable, and SEO-friendly web applications. My work focuses on turning ideas into clean, reliable, and maintainable products, with strong attention to performance, user experience, and long-term scalability.",
+                "With a background in Industrial Engineering, I approach software development with a practical, structured mindset. I care about efficiency, clarity, and building solutions that hold up over time, whether that means improving an existing platform or shipping new features.",
+                "At <a href='https://oddsscannergroup.com' target='_blank' rel='noopener noreferrer'>OddsScanner Group</a>, I work on large-scale production platforms such as <a href='https://oddsscanner.com' target='_blank' rel='noopener noreferrer'>oddsscanner.com</a>, where I helped rebuild and modernise core products using React, NextJS, and TailwindCSS. My contributions often focus on performance optimisation, Core Web Vitals, accessibility, and responsive, cross-platform interfaces for high-traffic websites.",
+                "As a freelancer, I support teams with frontend development, React and NextJS builds, performance and SEO improvements, and scalable UI systems. I also work with PHP, SQL/MySQL, and WordPress, and I’m comfortable jumping into existing codebases, collaborating remotely, and owning features end to end.",
             ]
         },
         experience: [
@@ -70,11 +72,11 @@ export const translations = {
     pt: {
         header: {
             name: "Zé Inácio Castelo Branco",
-            title: "Desenvolvedor de Software",
+            title: "Software Engineer",
             description: "Eu construo produtos e experiências digitais acessíveis e inclusivas para a web.",
             socials: [
-                { id: 'github', url: 'https://github.com/zeinacio' },
-                { id: 'linkedin', url: 'https://linkedin.com/in/zeinacio' }
+                { id: 'github', url: 'https://github.com/ZeInacioCB' },
+                { id: 'linkedin', url: 'https://www.linkedin.com/in/jose-inacio-castelo-branco/' }
             ]
         },
         nav: {
@@ -84,8 +86,10 @@ export const translations = {
         },
         about: {
             paragraphs: [
-                "Em 2012, decidi tentar criar temas personalizados para o Tumblr e mergulhei de cabeça no mundo da programação e web design. Hoje, tive o privilégio de desenvolver software para uma agência de publicidade, uma start-up, uma grande corporação e um estúdio de produtos digitais.",
-                "Meu foco principal hoje em dia é construir produtos e experiências digitais acessíveis e inclusivos para uma variedade de clientes."
+                "Sou Software Engineer com mais de 3 anos de experiência a desenvolver web apps rápidas, escaláveis e fáceis de usar. Gosto de trabalhar em produtos onde performance, SEO e estrutura do código fazem realmente a diferença, e de transformar ideias em soluções sólidas prontas para produção.",
+                "Tenho formação em Engenharia Industrial, o que influencia bastante a forma como abordo os problemas: procurar simplicidade, eficiência e soluções que se mantenham fiáveis ao longo do tempo. Essa base ajuda-me tanto a melhorar plataformas existentes como a construir novas funcionalidades de raiz.",
+                "Atualmente trabalho em plataformas web de grande escala, como <a href='https://oddsscanner.com' target='_blank' rel='noopener noreferrer'>oddsscanner.com</a>, onde participo na modernização do produto com React, NextJS e TailwindCSS. Uma parte importante do meu trabalho passa por melhorar Core Web Vitals, performance, acessibilidade e comportamento responsivo em páginas com elevado tráfego.",
+                "Como freelancer, apoio equipas no desenvolvimento frontend, em projetos com React e NextJS, otimização de performance e SEO, e criação de interfaces escaláveis. Trabalho também com PHP, SQL/MySQL e WordPress, e sinto-me confortável a integrar-me em codebases existentes, colaborar remotamente e assumir responsabilidade por funcionalidades de ponta a ponta."
             ]
         },
         experience: [
@@ -120,11 +124,11 @@ export const translations = {
     es: {
         header: {
             name: "Zé Inácio Castelo Branco",
-            title: "Desarrollador de Software",
+            title: "Software Engineer",
             description: "Construyo productos y experiencias digitales accesibles e inclusivas para la web.",
             socials: [
-                { id: 'github', url: 'https://github.com/zeinacio' },
-                { id: 'linkedin', url: 'https://linkedin.com/in/zeinacio' }
+                { id: 'github', url: 'https://github.com/ZeInacioCB' },
+                { id: 'linkedin', url: 'https://www.linkedin.com/in/jose-inacio-castelo-branco/' }
             ]
         },
         nav: {
@@ -134,8 +138,10 @@ export const translations = {
         },
         about: {
             paragraphs: [
-                "En 2012, decidí probar suerte creando temas personalizados para Tumblr y me sumergí de lleno en el mundo de la programación y el diseño web. Hoy, he tenido el privilegio de desarrollar software para una agencia de publicidad, una start-up, una gran corporación y un estudio de productos digitales.",
-                "Mi enfoque principal hoy en día es construir productos y experiencias digitales accesibles e inclusivos para una variedad de clientes."
+                "Soy Software Engineer con más de 3 años de experiencia desarrollando aplicaciones web rápidas, escalables y fáciles de usar. Me gusta trabajar en productos donde la performance, el SEO y una buena estructura del código son clave, y convertir ideas en soluciones sólidas listas para producción.",
+                "Mi formación en Ingeniería Industrial ha marcado mucho mi forma de resolver problemas: buscar simplicidad, eficiencia y soluciones que funcionen bien a largo plazo. Este enfoque me resulta especialmente útil tanto al mejorar plataformas existentes como al desarrollar nuevas funcionalidades.",
+                "Actualmente trabajo en plataformas web de gran escala, como <a href='https://oddsscanner.com' target='_blank' rel='noopener noreferrer'>oddsscanner.com</a>, donde participo en la modernización del producto utilizando React, NextJS y TailwindCSS. Gran parte de mi trabajo se centra en mejorar Core Web Vitals, performance, accesibilidad y comportamiento responsive en páginas con alto volumen de tráfico.",
+                "Como freelancer, ayudo a equipos con desarrollo frontend, proyectos en React y NextJS, optimización de performance y SEO, y construcción de interfaces escalables. También trabajo con PHP, SQL/MySQL y WordPress, y me adapto fácilmente a proyectos ya existentes, colaboración remota y responsabilidad completa sobre funcionalidades."
             ]
         },
         experience: [
