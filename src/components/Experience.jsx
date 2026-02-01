@@ -1,5 +1,7 @@
 import { useLanguage } from '../context/LanguageContext';
 import ExperienceCard from './ExperienceCard';
+import ResumeButton from './ResumeButton';
+import ScrollReveal from './ScrollReveal';
 
 function Experience() {
     const { t } = useLanguage();
@@ -14,9 +16,16 @@ function Experience() {
             <div>
                 <ol className="group/list">
                     {t.experience.map((exp, index) => (
-                        <ExperienceCard key={index} exp={exp} />
+                        <ScrollReveal key={index} delay={index * 0.1} width="full">
+                            <ExperienceCard exp={exp} />
+                        </ScrollReveal>
                     ))}
                 </ol>
+                <ScrollReveal delay={0.1}>
+                    <div className="mt-12">
+                        <ResumeButton />
+                    </div>
+                </ScrollReveal>
             </div>
         </section>
     );
