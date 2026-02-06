@@ -3,7 +3,7 @@ export const translations = {
         header: {
             name: "Zé Inácio Castelo Branco",
             title: "Software Engineer",
-            description: "Driven to build scalable, high-performance, and SEO-driven web applications.",
+            description: "Driven to build scalable, high-performance, and SEO-driven web applications. Currently deepening my Backend Engineering skills.",
             socials: [
                 { id: 'github', url: 'https://github.com/ZeInacioCB' },
                 { id: 'linkedin', url: 'https://www.linkedin.com/in/jose-inacio-castelo-branco/' }
@@ -30,12 +30,12 @@ export const translations = {
                 link: 'https://oddsscannergroup.com',
                 description: 'Work on the development and modernisation of large-scale, high-traffic web platforms, contributing across the stack with a strong focus on frontend engineering, performance, SEO, and scalability.',
                 achievements: [
-                    'Rebuilt a large-scale web platform from scratch, delivering a modern, responsive, and cross-platform user experience.',
+                    'Rebuilt a large-scale web platform, delivering a modern and responsive user experience.',
                     'Improved Google PageSpeed performance scores on key pages from ~60 to 75+',
                     'Achieved 90+ Accessibility scores on key pages.',
                     'Achieved SEO scores up to 100 on key pages.',
                     'Optimised Core Web Vitals, reducing CLS by over 80% and improving LCP by more than 1 second on critical pages.',
-                    'Identified and resolved frontend issues in production, significantly reducing error logs and improving overall application reliability.',
+                    'Identified and resolved issues in production, significantly reducing error logs and improving overall application reliability.',
                 ],
                 tech: ['React', 'NextJS', 'Tailwind CSS', 'JavaScript', 'Responsive Design', 'HTML & CSS', 'SEO', 'RestAPI']
             },
@@ -54,7 +54,7 @@ export const translations = {
                 tech: ['PHP', 'JavaScript', 'RestAPI', 'Responsive Design', 'Wordpress', 'MySQL', 'HTML & CSS', 'SEO']
             },
             {
-                dates: '01/2023 — 01/2025',
+                dates: '01/2023 — Present',
                 title: 'Software Developer',
                 company: 'Freelancer',
                 link: '#',
@@ -75,7 +75,7 @@ export const translations = {
                 thumbnail: '/OddsscannerProjectThumbnail.webp',
                 description: 'A large-scale, SEO-driven, performance-focused web platform built with NextJS, React and Tailwind CSS.',
                 link: 'https://oddsscanner.com',
-                tech: ['React', 'NextJS', 'Tailwind CSS', 'JavaScript', 'Responsive Design', 'SEO']
+                tech: ['React', 'NextJS', 'Tailwind CSS', 'Responsive Design', 'SEO', 'Core Web Vitals']
             },
             {
                 title: 'ZeInacioCB Portfolio',
@@ -96,14 +96,14 @@ export const translations = {
                 thumbnail: '/CorreioBrazilienseApostasThumbnail.webp',
                 description: 'An SEO-driven website partnership built during my time at OddsScanner Group, using a custom stack built with PHP, MySQL, JavaScript and WordPress.',
                 link: 'https://www.correiobraziliense.com.br/apostas/',
-                tech: ['PHP', 'MySQL', 'JavaScript', 'WordPress', 'SEO']
+                tech: ['PHP', 'MySQL', 'JavaScript', 'WordPress', 'SEO', 'Performance', 'Responsive Design']
             },
             {
                 title: 'NoAtaque Apostas',
                 thumbnail: '/NoAtaqueApostasThumbnail.webp',
                 description: 'An SEO-driven website focused on performance and accessibility built with a custom stack using PHP, MySQL, JavaScript and WordPress during my time at OddsScanner Group.',
                 link: 'https://noataque.com.br/apostas/',
-                tech: ['PHP', 'MySQL', 'JavaScript', 'WordPress', 'SEO', 'Performance']
+                tech: ['PHP', 'MySQL', 'JavaScript', 'WordPress', 'SEO', 'Performance', 'Responsive Design']
             }
         ],
         footer: {
@@ -116,7 +116,7 @@ export const translations = {
         header: {
             name: "Zé Inácio Castelo Branco",
             title: "Software Engineer",
-            description: "Eu construo produtos e experiências digitais acessíveis e inclusivas para a web.",
+            description: "Dedicado a construir produtos e experiências digitais acessíveis e inclusivas para a web. Actualmente interessado em aprofundar as minhas skills de Backend Engineering.",
             socials: [
                 { id: 'github', url: 'https://github.com/ZeInacioCB' },
                 { id: 'linkedin', url: 'https://www.linkedin.com/in/jose-inacio-castelo-branco/' }
@@ -129,26 +129,26 @@ export const translations = {
         },
         about: {
             paragraphs: [
-                "Sou Software Engineer com mais de 3 anos de experiência a desenvolver web apps rápidas, escaláveis e fáceis de usar. Gosto de trabalhar em produtos onde performance, SEO e estrutura do código fazem realmente a diferença, e de transformar ideias em soluções sólidas prontas para produção.",
-                "Tenho formação em Engenharia Industrial, o que influencia bastante a forma como abordo os problemas: procurar simplicidade, eficiência e soluções que se mantenham fiáveis ao longo do tempo. Essa base ajuda-me tanto a melhorar plataformas existentes como a construir novas funcionalidades de raiz.",
-                "Atualmente trabalho em plataformas web de grande escala, como <a href='https://oddsscanner.com' target='_blank' rel='noopener noreferrer'>oddsscanner.com</a>, onde participo na modernização do produto com React, NextJS e TailwindCSS. Uma parte importante do meu trabalho passa por melhorar Core Web Vitals, performance, acessibilidade e comportamento responsivo em páginas com elevado tráfego.",
-                "Como freelancer, apoio equipas no desenvolvimento frontend, em projetos com React e NextJS, otimização de performance e SEO, e criação de interfaces escaláveis. Trabalho também com PHP, SQL/MySQL e WordPress, e sinto-me confortável a integrar-me em codebases existentes, colaborar remotamente e assumir responsabilidade por funcionalidades de ponta a ponta."
+                "Sou Software Engineer e Frontend Engineer com mais de 3 anos de experiência no desenvolvimento de aplicações web rápidas, escaláveis e otimizadas para SEO. O meu trabalho centra-se em transformar ideias em produtos limpos, fiáveis e fáceis de manter, com forte atenção ao desempenho, à experiência do utilizador e à escalabilidade a longo prazo.",
+                "Com formação em Engenharia Industrial, abordo o desenvolvimento de software com uma mentalidade prática e estruturada. Valorizo a eficiência, a clareza e a criação de soluções sólidas e duradouras, quer seja a melhorar uma plataforma existente ou a lançar novas funcionalidades.",
+                "Na OddsScanner Group, trabalho em plataformas de produção de grande escala, como <a href='https://oddsscanner.com' target='_blank' rel='noopener noreferrer'>oddsscanner.com</a>, onde participo na reconstrução e modernização do produto utilizando React, NextJS e TailwindCSS. As minhas contribuições focam-se frequentemente na otimização de desempenho, Core Web Vitals, acessibilidade e interfaces responsivas e multiplataforma para websites de elevado tráfego.",
+                "Como freelancer, apoio equipas no desenvolvimento frontend, em projetos com React e NextJS, otimização de performance e SEO, e criação de interfaces escaláveis. Trabalho também com PHP, SQL/MySQL e WordPress, e sinto-me confortável a integrar codebases existentes, colaborar remotamente e assumir responsabilidade de funcionalidades de ponta a ponta."
             ]
         },
         experience: [
             {
-                dates: '01/2025 — Present',
+                dates: '01/2025 — Presente',
                 title: 'Software Engineer',
                 company: 'OddsScanner Group',
                 link: 'https://oddsscannergroup.com',
                 description: 'Trabalho no desenvolvimento e modernização de grandes escala, plataformas web de alto tráfego, contribuindo em todo o stack com um forte foco na engenharia de frontend, performance, SEO e escalabilidade.',
                 achievements: [
-                    'Construí uma plataforma web de grande escala desde zero, entregando uma experiência de usuário moderna, respondente e cross-platform.',
-                    'Melhorei os scores de performance do Google PageSpeed nas páginas-chave de ~60 para 75+',
-                    'Alcançei 90+ scores de acessibilidade nas páginas-chave.',
-                    'Alcançei scores de SEO até 100 nas páginas-chave.',
-                    'Optimisei os Core Web Vitals, reduzindo o CLS em mais de 80% e melhorando o LCP por mais de 1 segundo nas páginas críticas.',
-                    'Identifiquei e resolvi problemas de frontend em produção, significativamente reduzindo logs de erros e melhorando a confiabilidade geral da aplicação.',
+                    'Reconstrução de uma plataforma web de grande escala com uma experiência moderna e responsiva.',
+                    'Melhoria das pontuações do Google PageSpeed em páginas-chave de ~60 para 75+',
+                    'Alcance de pontuações de Acessibilidade superiores a 90 em páginas-chave.',
+                    'Alcance de pontuações de SEO até 100 em páginas-chave.',
+                    'Otimização de Core Web Vitals, reduzindo o CLS em +80% e melhorando o LCP em +1s em páginas críticas.',
+                    'Identificação e resolução de problemas em produção, reduzindo significativamente os logs de erros e melhorando a fiabilidade geral da aplicação.',
                 ],
                 tech: ['React', 'NextJS', 'Tailwind CSS', 'JavaScript', 'Responsive Design', 'HTML & CSS', 'SEO', 'RestAPI']
             },
@@ -157,27 +157,26 @@ export const translations = {
                 title: 'Junior Software Developer',
                 company: 'OddsScanner Group',
                 link: 'https://oddsscannergroup.com',
-                description: 'Desenvolvi e mantive múltiplos projetos personalizados usando tecnologias web modernas. Foco em performance, SEO e acessibilidade.',
+                description: 'Desenvolvimento e manutenção de vários projetos personalizados utilizando tecnologias web modernas, com foco em desempenho, SEO e acessibilidade.',
                 achievements: [
-                    'Desenvolvi e mantive componentes UI modulares e reutilizáveis',
-                    'Suporte a 10+ sites com atualizações de manutenção e funcionalidades',
-                    'Construí 5+ sites usando uma pilha personalizada WordPress e PHP, garantindo consistência, manutenibilidade e performance.',
-                    'Otimização contínua de performance e SEO, focando em melhorias de velocidade de página, auditorias técnicas e visibilidade de classificações de busca.',
+                    'Desenvolvimento e manutenção de componentes de UI modulares e reutilizáveis.',
+                    'Suporte contínuo a +10 websites com manutenção e atualizações de funcionalidades.',
+                    'Desenvolvimento de 5+ sites utilizando uma stack personalizada em WordPress e PHP, garantindo consistência, manutenibilidade e desempenho.',
+                    'Otimização contínua de desempenho e SEO, com foco na melhoria da velocidade das páginas, auditorias técnicas e visibilidade nos rankings de pesquisa.',
                 ],
                 tech: ['PHP', 'JavaScript', 'RestAPI', 'Responsive Design', 'Wordpress', 'MySQL', 'HTML & CSS', 'SEO']
             },
             {
-                dates: '01/2023 — 01/2025',
+                dates: '01/2023 — Presente',
                 title: 'Software Developer',
                 company: 'Freelancer',
                 link: '/',
-                description: 'Colaborando com clientes para projetar e construir aplicações web front-end responsivas e otimizadas para performance, trabalhando em todo o stack desde a implementação do frontend até as integrações de backend.',
+                description: 'Colaboração com clientes no design e desenvolvimento de aplicações web e funcionalidades responsivas e orientadas ao desempenho, trabalhando em toda a stack desde a implementação frontend até integrações backend.',
                 achievements: [
-                    'Desenvolvi uma funcionalidade de backend usando PHP e WordPress para integrar e sincronizar dados com plataformas externas, garantindo um fluxo de dados semântico com ferramentas como Atlas e Rainbow Map (rainbowmap.ilga-europe.org, contraception.srhrpolicyhub.org).',
-                    'Desenvolvi e construí aplicações web front-end responsivas usando Vanilla JavaScript e Bootstrap, com um forte foco em performance, acessibilidade e compatibilidade com navegadores.',
-                    'Desenvolvi sites de portfólio e showcase personalizados desde zero, lidando com layout, interatividade e design responsivo (rodrigoalb.com).',
-                    'Implementei animações e componentes interativos usando JavaScript moderno para melhorar a experiência do usuário.',
-                    'Trabalhei independentemente ao longo do ciclo de desenvolvimento completo, desde a coleta de requisitos e implementação até testes, implantação e manutenção.',
+                    'Desenvolvimento de uma funcionalidade backend em PHP e WordPress para integrar e sincronizar dados externos, garantindo um fluxo de dados contínuo (rainbowmap.ilga-europe.org, contraception.srhrpolicyhub.org).',
+                    'Desenvolvimento de aplicações frontend responsivas utilizando Vanilla JavaScript e Bootstrap, com foco no desempenho, acessibilidade e compatibilidade entre navegadores.',
+                    'Criação de websites de portfólio e showcase personalizados a partir do zero, gerindo layout, interatividade e design responsivo (rodrigoalb.com).',
+                    'Trabalho independente em todo o ciclo de desenvolvimento, desde o levantamento de requisitos e implementação até testes, deploy e manutenção.',
                 ],
                 tech: ['React', 'NextJS', 'Tailwind CSS', 'Responsive Design', 'Prisma', 'PHP', 'Wordpress', 'MySQL', 'HTML & CSS', 'Bootstrap', 'JavaScript']
             }
@@ -186,50 +185,50 @@ export const translations = {
             {
                 title: 'Oddsscanner',
                 thumbnail: '/OddsscannerProjectThumbnail.webp',
-                description: 'Um website de grande escala, focado em SEO e Performance, construído com NextJS, React e Tailwind CSS.',
+                description: 'Plataforma web de grande escala, orientada a SEO e focada no desempenho. Desenvolvida com NextJS, React e Tailwind CSS.',
                 link: 'https://oddsscanner.com',
-                tech: ['React', 'NextJS', 'Tailwind CSS', 'JavaScript', 'Responsive Design', 'SEO']
+                tech: ['React', 'NextJS', 'Tailwind CSS', 'Responsive Design', 'SEO', 'Core Web Vitals']
             },
             {
                 title: 'ZeInacioCB Portfolio',
                 thumbnail: '/MyPortfolioProjectThumbnail.webp',
-                description: 'Um portfólio com múltiplos idiomas construído com React, Vite e Tailwind CSS e implementado com Vercel.',
+                description: 'O meu portfólio multi-idioma construído com React e Vite, com styling em Tailwind CSS e implementado com Vercel.',
                 link: 'https://my-portfolio-zeinacio.vercel.app/',
                 tech: ['React', 'Vite', 'Tailwind CSS', 'JavaScript', 'i18n']
             },
             {
                 title: 'Cinematographer Portfolio',
                 thumbnail: '/RodrigoalbProjectThumbnail.webp',
-                description: 'Um portfólio cinematógrafico construído apenas com Vanilla JavaScript e Bootstrap.',
+                description: 'Portfólio de cinematógrafo desenvolvido com Vanilla JavaScript e Bootstrap.',
                 link: 'https://rodrigoalb.com',
                 tech: ['JavaScript', 'Bootstrap', 'HTML & CSS', 'Responsive Design']
             },
             {
                 title: 'Correio Braziliense Apostas',
                 thumbnail: '/CorreioBrazilienseApostasThumbnail.webp',
-                description: 'Um website de parceria SEO-driven, construído enquanto trabalhava na OddsScanner Group, usando uma stack personalizada com PHP, MySQL, JavaScript e WordPress.',
+                description: 'Parceria de website orientado a SEO desenvolvida durante o meu tempo na OddsScanner Group, utilizando uma stack personalizada com PHP, MySQL, JavaScript e WordPress.',
                 link: 'https://www.correiobraziliense.com.br/apostas/',
-                tech: ['PHP', 'MySQL', 'JavaScript', 'WordPress', 'SEO']
+                tech: ['PHP', 'MySQL', 'JavaScript', 'WordPress', 'SEO', 'Responsive Design']
             },
             {
                 title: 'NoAtaque Apostas',
                 thumbnail: '/NoAtaqueApostasThumbnail.webp',
-                description: 'Um website construído usando uma stack personalizada com PHP, MySQL, JavaScript e WordPress. Focado em SEO e Performance e construído tendo em conta os requisitos de um website de parceria.',
+                description: 'Website orientado a SEO, focado em desempenho e acessibilidade, desenvolvido durante o meu tempo na OddsScanner Group com uma stack personalizada em PHP, MySQL, JavaScript e WordPress.',
                 link: 'https://noataque.com.br/apostas/',
-                tech: ['PHP', 'MySQL', 'JavaScript', 'WordPress', 'SEO', 'Performance']
+                tech: ['PHP', 'MySQL', 'JavaScript', 'WordPress', 'SEO', 'Responsive Design']
             }
         ],
         footer: {
             text: 'Construído com <a href="https://react.dev/" target="_blank" rel="noreferrer">React</a> & <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">Tailwind CSS</a>, desenvolvido com <a href="https://vite.dev/" target="_blank" rel="noreferrer">Vite</a> & <a href="https://antigravity.google/" target="_blank" rel="noreferrer">Antigravity</a>, implementado com <a href="https://vercel.com" target="_blank" rel="noreferrer">Vercel</a>, e feito por <a href="https://github.com/ZeInacioCB" target="_blank" rel="noreferrer">ZeInacioCB</a>'
         },
         viewResume: 'Ver Currículo Completo',
-        resumeUrl: '/resume-pt.pdf'
+        resumeUrl: '/JoseInacioCasteloBranco_SoftwareEngineer_20260206_PT.pdf'
     },
     es: {
         header: {
             name: "Zé Inácio Castelo Branco",
             title: "Software Engineer",
-            description: "Construyo productos y experiencias digitales accesibles e inclusivas para la web.",
+            description: "Construyo productos y experiencias digitales accesibles e inclusivas para la web. Actualmente me dedico a aprofundar mis skills de Backend Engineering.",
             socials: [
                 { id: 'github', url: 'https://github.com/ZeInacioCB' },
                 { id: 'linkedin', url: 'https://www.linkedin.com/in/jose-inacio-castelo-branco/' }
@@ -242,64 +241,99 @@ export const translations = {
         },
         about: {
             paragraphs: [
-                "Soy Software Engineer con más de 3 años de experiencia desarrollando aplicaciones web rápidas, escalables y fáciles de usar. Me gusta trabajar en productos donde la performance, el SEO y una buena estructura del código son clave, y convertir ideas en soluciones sólidas listas para producción.",
-                "Mi formación en Ingeniería Industrial ha marcado mucho mi forma de resolver problemas: buscar simplicidad, eficiencia y soluciones que funcionen bien a largo plazo. Este enfoque me resulta especialmente útil tanto al mejorar plataformas existentes como al desarrollar nuevas funcionalidades.",
-                "Actualmente trabajo en plataformas web de gran escala, como <a href='https://oddsscanner.com' target='_blank' rel='noopener noreferrer'>oddsscanner.com</a>, donde participo en la modernización del producto utilizando React, NextJS y TailwindCSS. Gran parte de mi trabajo se centra en mejorar Core Web Vitals, performance, accesibilidad y comportamiento responsive en páginas con alto volumen de tráfico.",
-                "Como freelancer, ayudo a equipos con desarrollo frontend, proyectos en React y NextJS, optimización de performance y SEO, y construcción de interfaces escalables. También trabajo con PHP, SQL/MySQL y WordPress, y me adapto fácilmente a proyectos ya existentes, colaboración remota y responsabilidad completa sobre funcionalidades."
+                "Soy Software Engineer y Frontend Engineer con más de 3 años de experiencia desarrollando aplicaciones web rápidas, escalables y optimizadas para SEO. Mi trabajo se centra en transformar ideas en productos limpios, fiables y mantenibles, con una fuerte atención al rendimiento, la experiencia de usuario y la escalabilidad a largo plazo.",
+                "Con formación en Ingeniería Industrial, afronto el desarrollo de software con una mentalidad práctica y estructurada. Valoro la eficiencia, la claridad y la creación de soluciones sólidas y duraderas, ya sea mejorando una plataforma existente o lanzando nuevas funcionalidades.",
+                "En OddsScanner Group, trabajo en plataformas de producción de gran escala como <a href='https://oddsscanner.com' target='_blank' rel='noopener noreferrer'>oddsscanner.com</a>, donde ayudé a reconstruir y modernizar productos clave utilizando React, NextJS y TailwindCSS. Mis contribuciones suelen centrarse en la optimización del rendimiento, Core Web Vitals, accesibilidad e interfaces responsivas y multiplataforma para sitios web de alto tráfico.",
+                "Como freelance, apoyo a equipos en desarrollo frontend, proyectos con React y NextJS, mejoras de rendimiento y SEO, y sistemas de UI escalables. También trabajo con PHP, SQL/MySQL y WordPress, y me adapto fácilmente a bases de código existentes, colaboración remota y gestión de funcionalidades de principio a fin."
             ]
         },
         experience: [
             {
-                dates: '01/2024 — Presente',
-                title: 'Ingeniero de Software Senior',
-                company: 'Empresa',
-                link: 'https://example.com',
-                description: 'Entrega de código de producción robusto y de alta calidad para una variedad de proyectos para clientes como Harvard Business School, Everytown for Gun Safety y más.',
-                achievements: [],
-                tech: ['React', 'TypeScript', 'Tailwind CSS']
+                dates: '01/2025 — Presente',
+                title: 'Software Engineer',
+                company: 'OddsScanner Group',
+                link: 'https://oddsscannergroup.com',
+                description: 'Desarrollo y modernización de plataformas web de gran escala y alto tráfico, contribuyendo a lo largo de toda la stack con un fuerte enfoque en frontend, rendimiento, SEO y escalabilidad.',
+                achievements: [
+                    'Reconstrucción de una plataforma web de gran escala desde cero, ofreciendo una experiencia de usuario moderna, responsiva y multiplataforma.',
+                    'Mejora de las puntuaciones de Google PageSpeed en páginas clave de aproximadamente 60 a 75+.',
+                    'Obtención de puntuaciones de Accesibilidad superiores a 90 en páginas clave.',
+                    'Obtención de puntuaciones de SEO de hasta 100 en páginas clave.',
+                    'Optimización de Core Web Vitals, reduciendo CLS en más del 80% y mejorando LCP en más de 1s en páginas críticas.',
+                    'Identificación y resolución de problemas en producción, reduciendo significativamente los registros de errores y mejorando la fiabilidad de la aplicación.',
+                ],
+                tech: ['React', 'NextJS', 'Tailwind CSS', 'JavaScript', 'Responsive Design', 'HTML & CSS', 'SEO', 'RestAPI']
+            },
+            {
+                dates: '01/2023 — 01/2025',
+                title: 'Junior Software Developer',
+                company: 'OddsScanner Group',
+                link: 'https://oddsscannergroup.com',
+                description: 'Desarrollo y mantenimiento de múltiples proyectos personalizados utilizando tecnologías web modernas, con enfoque en rendimiento, SEO y accesibilidad.',
+                achievements: [
+                    'Desarrollo y mantenimiento de componentes de UI modulares y reutilizables.',
+                    'Soporte continuo a +10 sitios web mediante tareas de mantenimiento y actualizaciones de funcionalidades.',
+                    'Desarrollo de +5 sitios web utilizando una stack personalizada en WordPress y PHP, garantizando consistencia, mantenibilidad y rendimiento.',
+                    'Optimización continua de rendimiento y SEO, con enfoque en la mejora de la velocidad de las páginas, auditorías técnicas y visibilidad en los rankings de búsqueda.',
+                ],
+                tech: ['PHP', 'JavaScript', 'RestAPI', 'Responsive Design', 'Wordpress', 'MySQL', 'HTML & CSS', 'SEO']
+            },
+            {
+                dates: '01/2023 — Presente',
+                title: 'Software Developer',
+                company: 'Freelancer',
+                link: '#',
+                description: 'Colaboración con clientes en el diseño y desarrollo de aplicaciones web y funcionalidades responsivas y orientadas al rendimiento, trabajando a lo largo de toda la stack desde la implementación frontend hasta integraciones backend.',
+                achievements: [
+                    'Desarrollo de una funcionalidad backend en PHP y WordPress para integrar y sincronizar datos con plataformas externas, garantizando un flujo de datos continuo con herramientas como Atlas y Rainbow Map (rainbowmap.ilga-europe.org, contraception.srhrpolicyhub.org).',
+                    'Diseño y desarrollo de aplicaciones frontend responsivas utilizando JavaScript puro y Bootstrap, con un fuerte enfoque en rendimiento, accesibilidad y compatibilidad entre navegadores.',
+                    'Creación de sitios web de portafolio y showcase personalizados desde cero, gestionando layout, interactividad y diseño responsivo (por ejemplo, rodrigoalb.com).',
+                    'Trabajo independiente a lo largo de todo el ciclo de desarrollo, desde la recopilación de requisitos y la implementación hasta pruebas, despliegue y mantenimiento.',
+                ],
+                tech: ['React', 'NextJS', 'Tailwind CSS', 'Responsive Design', 'Prisma', 'PHP', 'Wordpress', 'MySQL', 'HTML & CSS', 'Bootstrap', 'JavaScript']
             }
         ],
         projects: [
             {
                 title: 'Oddsscanner',
                 thumbnail: '/OddsscannerProjectThumbnail.webp',
-                description: 'Un sitio web de gran escala, SEO-driven y con un enfoque en performance, construido con NextJS, React y Tailwind CSS.',
+                description: 'Plataforma web de gran escala, orientada a SEO y centrada en el rendimiento, desarrollada con NextJS, React y Tailwind CSS.',
                 link: 'https://oddsscanner.com',
-                tech: ['React', 'NextJS', 'Tailwind CSS', 'JavaScript', 'Responsive Design', 'SEO']
+                tech: ['React', 'NextJS', 'Tailwind CSS', 'Responsive Design', 'SEO', 'Core Web Vitals']
             },
             {
                 title: 'ZeInacioCB Portfolio',
                 thumbnail: '/MyPortfolioProjectThumbnail.webp',
-                description: 'Un portafolio multilenguaje construido con React y Vite, y estilizado con Tailwind CSS.',
+                description: 'Mi portafolio de desarrollador multiidioma construido con React y Vite, estilizado con Tailwind CSS y desplegado en Vercel.',
                 link: 'https://my-portfolio-zeinacio.vercel.app/',
                 tech: ['React', 'Vite', 'Tailwind CSS', 'JavaScript', 'i18n']
             },
             {
                 title: 'Cinematographer Portfolio',
                 thumbnail: '/RodrigoalbProjectThumbnail.webp',
-                description: 'Un simple portafolio cinematógrafico construido con Vanilla JavaScript e Bootstrap.',
+                description: 'Portafolio de cinematógrafo desarrollado con Vanilla JavaScript y Bootstrap.',
                 link: 'https://rodrigoalb.com',
                 tech: ['JavaScript', 'Bootstrap', 'HTML & CSS', 'Responsive Design']
             },
             {
                 title: 'Correio Braziliense Apostas',
                 thumbnail: '/CorreioBrazilienseApostasThumbnail.webp',
-                description: 'Un sitio web de parceria SEO-driven construido durante mi tiempo en OddsScanner Group, utilizando un stack personalizado construido con PHP, MySQL, JavaScript y WordPress.',
+                description: 'UColaboración en un sitio web orientado a SEO desarrollada durante mi etapa en OddsScanner Group, utilizando una stack personalizada con PHP, MySQL, JavaScript y WordPress.',
                 link: 'https://www.correiobraziliense.com.br/apostas/',
-                tech: ['PHP', 'MySQL', 'JavaScript', 'WordPress', 'SEO']
+                tech: ['PHP', 'MySQL', 'JavaScript', 'WordPress', 'SEO', 'Performance', 'Responsive Design']
             },
             {
                 title: 'NoAtaque Apostas',
                 thumbnail: '/NoAtaqueApostasThumbnail.webp',
-                description: 'Un sitio web de parceria SEO-driven enfocado en performance y accesibilidad construido con un stack personalizado utilizando PHP, MySQL, JavaScript y WordPress durante mi tiempo en OddsScanner Group.',
+                description: 'Sitio web orientado a SEO, centrado en rendimiento y accesibilidad, desarrollado durante mi etapa en OddsScanner Group con una stack personalizada basada en PHP, MySQL, JavaScript y WordPress.',
                 link: 'https://noataque.com.br/apostas/',
-                tech: ['PHP', 'MySQL', 'JavaScript', 'WordPress', 'SEO', 'Performance']
+                tech: ['PHP', 'MySQL', 'JavaScript', 'WordPress', 'SEO', 'Performance', 'Responsive Design']
             }
         ],
         footer: {
             text: 'Construido con <a href="https://react.dev/" target="_blank" rel="noreferrer">React</a> & <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">Tailwind CSS</a>, desarrollado con <a href="https://vite.dev/" target="_blank" rel="noreferrer">Vite</a> & <a href="https://antigravity.google/" target="_blank" rel="noreferrer">Antigravity</a>, implementado con <a href="https://vercel.com" target="_blank" rel="noreferrer">Vercel</a>, y hecho por <a href="https://github.com/ZeInacioCB" target="_blank" rel="noreferrer">Ze Inácio Castelo Branco</a>'
         },
         viewResume: 'Ver Currículum Completo',
-        resumeUrl: '/resume-es.pdf'
+        resumeUrl: '/JoseInacioCasteloBranco_SoftwareEngineer_20260206_ES.pdf'
     }
 };
