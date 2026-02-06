@@ -4,25 +4,20 @@ import { translations } from '../data/translations';
 const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
-    // Try to get language from URL first, then localStorage/browser
+    // Try to get language from URL first
     const getInitialLanguage = () => {
         const path = window.location.pathname.replace('/', '');
         if (translations[path]) return path;
 
-        const saved = localStorage.getItem('portfolio-lang');
-        if (saved && translations[saved]) return saved;
-
-        const browserLang = navigator.language.split('-')[0];
-        if (translations[browserLang]) return browserLang;
-
+        // Default to English.
         return 'en';
     };
 
     const [language, setLanguageState] = useState(getInitialLanguage);
+    const [isInitialLoad, setIsInitialLoad] = useState(true);
 
-    // Sync state with URL and localStorage
+    // Sync state with URL
     useEffect(() => {
-        localStorage.setItem('portfolio-lang', language);
         document.documentElement.lang = language;
 
         // Update URL slug (except for 'en' which is root)
@@ -30,9 +25,15 @@ export const LanguageProvider = ({ children }) => {
         const targetPath = language === 'en' ? '/' : `/${language}`;
 
         if (currentPath !== targetPath) {
-            window.history.pushState({ lang: language }, '', targetPath);
+            if (isInitialLoad) {
+                // Use replaceState on first load to avoid adding a history entry
+                window.history.replaceState({ lang: language }, '', targetPath);
+            } else {
+                window.history.pushState({ lang: language }, '', targetPath);
+            }
         }
-    }, [language]);
+        setIsInitialLoad(false);
+    }, [language, isInitialLoad]);
 
     // Handle back/forward buttons
     useEffect(() => {
