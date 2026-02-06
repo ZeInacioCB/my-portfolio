@@ -1,7 +1,12 @@
 export const translations = {
     en: {
+        seo: {
+            title: "ZeInacioCB   | Software Engineer Portfolio",
+            description: "Portfolio of ZeInacioCB, a Software Engineer specializing in scalable, high-performance, and SEO-driven web applications.",
+            keywords: "Software Engineer, Frontend Engineer, React, NextJS, JavaScript, Portfolio, ZeInacioCB"
+        },
         header: {
-            name: "Zé Inácio Castelo Branco",
+            name: "ZeInacioCB",
             title: "Software Engineer",
             description: "Driven to build scalable, high-performance, and SEO-driven web applications. Currently deepening my Backend Engineering skills.",
             socials: [
@@ -81,7 +86,7 @@ export const translations = {
                 title: 'ZeInacioCB Portfolio',
                 thumbnail: '/MyPortfolioProjectThumbnail.webp',
                 description: 'A multi-language developer portfolio built with React and Vite, and styled with Tailwind CSS.',
-                link: 'https://my-portfolio-zeinacio.vercel.app/',
+                link: 'https://zeinaciocb.dev/',
                 tech: ['React', 'Vite', 'Tailwind CSS', 'JavaScript', 'i18n']
             },
             {
@@ -113,8 +118,13 @@ export const translations = {
         resumeUrl: '/JoseInacioCasteloBranc_SoftwareEngineer_20260130.pdf'
     },
     pt: {
+        seo: {
+            title: "ZeInacioCB | Portfólio de Software Engineer",
+            description: "Portfólio de ZeInacioCB, Software Engineer especializado em aplicações web escaláveis, de alta performance e otimizadas para SEO.",
+            keywords: "Software Engineer, Frontend Engineer, React, NextJS, JavaScript, Portfólio, ZeInacioCB"
+        },
         header: {
-            name: "Zé Inácio Castelo Branco",
+            name: "ZeInacioCB",
             title: "Software Engineer",
             description: "Dedicado a construir produtos e experiências digitais acessíveis e inclusivas para a web. Actualmente interessado em aprofundar as minhas skills de Backend Engineering.",
             socials: [
@@ -193,7 +203,7 @@ export const translations = {
                 title: 'ZeInacioCB Portfolio',
                 thumbnail: '/MyPortfolioProjectThumbnail.webp',
                 description: 'O meu portfólio multi-idioma construído com React e Vite, com styling em Tailwind CSS e implementado com Vercel.',
-                link: 'https://my-portfolio-zeinacio.vercel.app/',
+                link: 'https://zeinaciocb.dev/',
                 tech: ['React', 'Vite', 'Tailwind CSS', 'JavaScript', 'i18n']
             },
             {
@@ -225,8 +235,13 @@ export const translations = {
         resumeUrl: '/JoseInacioCasteloBranco_SoftwareEngineer_20260206_PT.pdf'
     },
     es: {
+        seo: {
+            title: "ZeInacioCB | Portafolio de Software Engineer",
+            description: "Portafolio de ZeInacioCB, Software Engineer especializado en aplicaciones web escalables, de alto rendimiento y optimizadas para SEO.",
+            keywords: "Software Engineer, Frontend Engineer, React, NextJS, JavaScript, Portafolio, ZeInacioCB"
+        },
         header: {
-            name: "Zé Inácio Castelo Branco",
+            name: "ZeInacioCB",
             title: "Software Engineer",
             description: "Construyo productos y experiencias digitales accesibles e inclusivas para la web. Actualmente me dedico a aprofundar mis skills de Backend Engineering.",
             socials: [
@@ -305,7 +320,7 @@ export const translations = {
                 title: 'ZeInacioCB Portfolio',
                 thumbnail: '/MyPortfolioProjectThumbnail.webp',
                 description: 'Mi portafolio de desarrollador multiidioma construido con React y Vite, estilizado con Tailwind CSS y desplegado en Vercel.',
-                link: 'https://my-portfolio-zeinacio.vercel.app/',
+                link: 'https://zeinaciocb.dev/',
                 tech: ['React', 'Vite', 'Tailwind CSS', 'JavaScript', 'i18n']
             },
             {

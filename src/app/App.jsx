@@ -1,4 +1,5 @@
 import MouseGlower from '../components/MouseGlower.jsx';
+import SEO from '../components/SEO.jsx';
 import { LanguageProvider } from '../context/LanguageContext';
 import Header from '../layout/Header.jsx';
 import Main from '../layout/Main.jsx';
@@ -8,6 +9,7 @@ function App() {
   return (
     <LanguageProvider>
       <div className="relative">
+        <SEO />
         <MouseGlower />
 
         <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-16 lg:py-0">
