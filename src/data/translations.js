@@ -71,29 +71,46 @@ export const translations = {
         ],
         projects: [
             {
-                title: 'Portfolio v2',
-                thumbnail: 'https://placehold.co/200x120/0f172a/94a3b8?text=Portfolio',
-                description: 'A modular, multi-language portfolio built with React and Tailwind CSS.',
-                link: 'https://github.com/zeinacio/portfolio'
+                title: 'Oddsscanner',
+                thumbnail: '/OddsscannerProjectThumbnail.webp',
+                description: 'A large-scale, SEO-driven, performance-focused web platform built with NextJS, React and Tailwind CSS.',
+                link: 'https://oddsscanner.com',
+                tech: ['React', 'NextJS', 'Tailwind CSS', 'JavaScript', 'Responsive Design', 'SEO']
             },
             {
-                title: 'Project Alpha',
-                thumbnail: 'https://placehold.co/200x120/0f172a/94a3b8?text=Alpha',
-                description: 'A web application focused on data visualization and real-time updates.',
-                link: '#'
+                title: 'ZeInacioCB Portfolio',
+                thumbnail: '/MyPortfolioProjectThumbnail.webp',
+                description: 'A multi-language developer portfolio built with React and Vite, and styled with Tailwind CSS.',
+                link: 'https://my-portfolio-zeinacio.vercel.app/',
+                tech: ['React', 'Vite', 'Tailwind CSS', 'JavaScript', 'i18n']
+            },
+            {
+                title: 'Cinematographer Portfolio',
+                thumbnail: '/RodrigoalbProjectThumbnail.webp',
+                description: 'A simple cinematographer portfolio built with Vanilla JavaScript and Bootstrap.',
+                link: 'https://rodrigoalb.com',
+                tech: ['JavaScript', 'Bootstrap', 'HTML & CSS', 'Responsive Design']
+            },
+            {
+                title: 'Correio Braziliense Apostas',
+                thumbnail: '/CorreioBrazilienseApostasThumbnail.webp',
+                description: 'An SEO-driven website partnership built during my time at OddsScanner Group, using a custom stack built with PHP, MySQL, JavaScript and WordPress.',
+                link: 'https://www.correiobraziliense.com.br/apostas/',
+                tech: ['PHP', 'MySQL', 'JavaScript', 'WordPress', 'SEO']
+            },
+            {
+                title: 'NoAtaque Apostas',
+                thumbnail: '/NoAtaqueApostasThumbnail.webp',
+                description: 'An SEO-driven website focused on performance and accessibility built with a custom stack using PHP, MySQL, JavaScript and WordPress during my time at OddsScanner Group.',
+                link: 'https://noataque.com.br/apostas/',
+                tech: ['PHP', 'MySQL', 'JavaScript', 'WordPress', 'SEO', 'Performance']
             }
         ],
         footer: {
-            text: 'Built with',
-            links: [
-                { name: 'React', url: 'https://reactjs.org' },
-                { name: 'Tailwind CSS', url: 'https://tailwindcss.com' },
-                { name: 'Vite', url: 'https://vitejs.dev' },
-                { name: 'Vercel', url: 'https://vercel.com' }
-            ]
+            text: 'Built with <a href="https://react.dev/" target="_blank" rel="noreferrer"   >React</a> & <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">Tailwind CSS</a>, developed with <a href="https://vite.dev/" target="_blank" rel="noreferrer">Vite</a> & <a href="https://antigravity.google/" target="_blank" rel="noreferrer">Antigravity</a>, deployed with <a href="https://vercel.com" target="_blank" rel="noreferrer">Vercel</a>. Made by <a href="https://github.com/ZeInacioCB" target="_blank" rel="noreferrer">ZeInacioCB</a>'
         },
         viewResume: 'View Full Resume',
-        resumeUrl: '/resume-en.pdf'
+        resumeUrl: '/JoseInacioCasteloBranc_SoftwareEngineer_20260130.pdf'
     },
     pt: {
         header: {
@@ -120,31 +137,90 @@ export const translations = {
         },
         experience: [
             {
-                dates: '01/2025 — Presente',
+                dates: '01/2025 — Present',
                 title: 'Software Engineer',
                 company: 'OddsScanner Group',
                 link: 'https://oddsscannergroup.com',
-                description: 'Entrega de código de produção robusto e de alta qualidade para uma gama diversificada de projetos para clientes como Harvard Business School, Everytown for Gun Safety e outros.',
-                achievements: [],
-                tech: ['React', 'TypeScript', 'Tailwind CSS']
+                description: 'Trabalho no desenvolvimento e modernização de grandes escala, plataformas web de alto tráfego, contribuindo em todo o stack com um forte foco na engenharia de frontend, performance, SEO e escalabilidade.',
+                achievements: [
+                    'Construí uma plataforma web de grande escala desde zero, entregando uma experiência de usuário moderna, respondente e cross-platform.',
+                    'Melhorei os scores de performance do Google PageSpeed nas páginas-chave de ~60 para 75+',
+                    'Alcançei 90+ scores de acessibilidade nas páginas-chave.',
+                    'Alcançei scores de SEO até 100 nas páginas-chave.',
+                    'Optimisei os Core Web Vitals, reduzindo o CLS em mais de 80% e melhorando o LCP por mais de 1 segundo nas páginas críticas.',
+                    'Identifiquei e resolvi problemas de frontend em produção, significativamente reduzindo logs de erros e melhorando a confiabilidade geral da aplicação.',
+                ],
+                tech: ['React', 'NextJS', 'Tailwind CSS', 'JavaScript', 'Responsive Design', 'HTML & CSS', 'SEO', 'RestAPI']
+            },
+            {
+                dates: '01/2023 — 01/2025',
+                title: 'Junior Software Developer',
+                company: 'OddsScanner Group',
+                link: 'https://oddsscannergroup.com',
+                description: 'Desenvolvi e mantive múltiplos projetos personalizados usando tecnologias web modernas. Foco em performance, SEO e acessibilidade.',
+                achievements: [
+                    'Desenvolvi e mantive componentes UI modulares e reutilizáveis',
+                    'Suporte a 10+ sites com atualizações de manutenção e funcionalidades',
+                    'Construí 5+ sites usando uma pilha personalizada WordPress e PHP, garantindo consistência, manutenibilidade e performance.',
+                    'Otimização contínua de performance e SEO, focando em melhorias de velocidade de página, auditorias técnicas e visibilidade de classificações de busca.',
+                ],
+                tech: ['PHP', 'JavaScript', 'RestAPI', 'Responsive Design', 'Wordpress', 'MySQL', 'HTML & CSS', 'SEO']
+            },
+            {
+                dates: '01/2023 — 01/2025',
+                title: 'Software Developer',
+                company: 'Freelancer',
+                link: '/',
+                description: 'Colaborando com clientes para projetar e construir aplicações web front-end responsivas e otimizadas para performance, trabalhando em todo o stack desde a implementação do frontend até as integrações de backend.',
+                achievements: [
+                    'Desenvolvi uma funcionalidade de backend usando PHP e WordPress para integrar e sincronizar dados com plataformas externas, garantindo um fluxo de dados semântico com ferramentas como Atlas e Rainbow Map (rainbowmap.ilga-europe.org, contraception.srhrpolicyhub.org).',
+                    'Desenvolvi e construí aplicações web front-end responsivas usando Vanilla JavaScript e Bootstrap, com um forte foco em performance, acessibilidade e compatibilidade com navegadores.',
+                    'Desenvolvi sites de portfólio e showcase personalizados desde zero, lidando com layout, interatividade e design responsivo (rodrigoalb.com).',
+                    'Implementei animações e componentes interativos usando JavaScript moderno para melhorar a experiência do usuário.',
+                    'Trabalhei independentemente ao longo do ciclo de desenvolvimento completo, desde a coleta de requisitos e implementação até testes, implantação e manutenção.',
+                ],
+                tech: ['React', 'NextJS', 'Tailwind CSS', 'Responsive Design', 'Prisma', 'PHP', 'Wordpress', 'MySQL', 'HTML & CSS', 'Bootstrap', 'JavaScript']
             }
         ],
         projects: [
             {
-                title: 'Portfólio v2',
-                thumbnail: 'https://placehold.co/200x120/0f172a/94a3b8?text=Portfólio',
-                description: 'Um portfólio modular e multilíngue construído com React e Tailwind CSS.',
-                link: 'https://github.com/zeinacio/portfolio'
+                title: 'Oddsscanner',
+                thumbnail: '/OddsscannerProjectThumbnail.webp',
+                description: 'Um website de grande escala, focado em SEO e Performance, construído com NextJS, React e Tailwind CSS.',
+                link: 'https://oddsscanner.com',
+                tech: ['React', 'NextJS', 'Tailwind CSS', 'JavaScript', 'Responsive Design', 'SEO']
+            },
+            {
+                title: 'ZeInacioCB Portfolio',
+                thumbnail: '/MyPortfolioProjectThumbnail.webp',
+                description: 'Um portfólio com múltiplos idiomas construído com React, Vite e Tailwind CSS e implementado com Vercel.',
+                link: 'https://my-portfolio-zeinacio.vercel.app/',
+                tech: ['React', 'Vite', 'Tailwind CSS', 'JavaScript', 'i18n']
+            },
+            {
+                title: 'Cinematographer Portfolio',
+                thumbnail: '/RodrigoalbProjectThumbnail.webp',
+                description: 'Um portfólio cinematógrafico construído apenas com Vanilla JavaScript e Bootstrap.',
+                link: 'https://rodrigoalb.com',
+                tech: ['JavaScript', 'Bootstrap', 'HTML & CSS', 'Responsive Design']
+            },
+            {
+                title: 'Correio Braziliense Apostas',
+                thumbnail: '/CorreioBrazilienseApostasThumbnail.webp',
+                description: 'Um website de parceria SEO-driven, construído enquanto trabalhava na OddsScanner Group, usando uma stack personalizada com PHP, MySQL, JavaScript e WordPress.',
+                link: 'https://www.correiobraziliense.com.br/apostas/',
+                tech: ['PHP', 'MySQL', 'JavaScript', 'WordPress', 'SEO']
+            },
+            {
+                title: 'NoAtaque Apostas',
+                thumbnail: '/NoAtaqueApostasThumbnail.webp',
+                description: 'Um website construído usando uma stack personalizada com PHP, MySQL, JavaScript e WordPress. Focado em SEO e Performance e construído tendo em conta os requisitos de um website de parceria.',
+                link: 'https://noataque.com.br/apostas/',
+                tech: ['PHP', 'MySQL', 'JavaScript', 'WordPress', 'SEO', 'Performance']
             }
         ],
         footer: {
-            text: 'Desenvolvido com',
-            links: [
-                { name: 'React', url: 'https://reactjs.org' },
-                { name: 'Tailwind CSS', url: 'https://tailwindcss.com' },
-                { name: 'Vite', url: 'https://vitejs.dev' },
-                { name: 'Vercel', url: 'https://vercel.com' }
-            ]
+            text: 'Construído com <a href="https://react.dev/" target="_blank" rel="noreferrer">React</a> & <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">Tailwind CSS</a>, desenvolvido com <a href="https://vite.dev/" target="_blank" rel="noreferrer">Vite</a> & <a href="https://antigravity.google/" target="_blank" rel="noreferrer">Antigravity</a>, implementado com <a href="https://vercel.com" target="_blank" rel="noreferrer">Vercel</a>, e feito por <a href="https://github.com/ZeInacioCB" target="_blank" rel="noreferrer">ZeInacioCB</a>'
         },
         viewResume: 'Ver Currículo Completo',
         resumeUrl: '/resume-pt.pdf'
@@ -185,20 +261,43 @@ export const translations = {
         ],
         projects: [
             {
-                title: 'Portafolio v2',
-                thumbnail: 'https://placehold.co/200x120/0f172a/94a3b8?text=Portafolio',
-                description: 'Un portafolio modular y bilingüe construido con React y Tailwind CSS.',
-                link: 'https://github.com/zeinacio/portfolio'
+                title: 'Oddsscanner',
+                thumbnail: '/OddsscannerProjectThumbnail.webp',
+                description: 'Un sitio web de gran escala, SEO-driven y con un enfoque en performance, construido con NextJS, React y Tailwind CSS.',
+                link: 'https://oddsscanner.com',
+                tech: ['React', 'NextJS', 'Tailwind CSS', 'JavaScript', 'Responsive Design', 'SEO']
+            },
+            {
+                title: 'ZeInacioCB Portfolio',
+                thumbnail: '/MyPortfolioProjectThumbnail.webp',
+                description: 'Un portafolio multilenguaje construido con React y Vite, y estilizado con Tailwind CSS.',
+                link: 'https://my-portfolio-zeinacio.vercel.app/',
+                tech: ['React', 'Vite', 'Tailwind CSS', 'JavaScript', 'i18n']
+            },
+            {
+                title: 'Cinematographer Portfolio',
+                thumbnail: '/RodrigoalbProjectThumbnail.webp',
+                description: 'Un simple portafolio cinematógrafico construido con Vanilla JavaScript e Bootstrap.',
+                link: 'https://rodrigoalb.com',
+                tech: ['JavaScript', 'Bootstrap', 'HTML & CSS', 'Responsive Design']
+            },
+            {
+                title: 'Correio Braziliense Apostas',
+                thumbnail: '/CorreioBrazilienseApostasThumbnail.webp',
+                description: 'Un sitio web de parceria SEO-driven construido durante mi tiempo en OddsScanner Group, utilizando un stack personalizado construido con PHP, MySQL, JavaScript y WordPress.',
+                link: 'https://www.correiobraziliense.com.br/apostas/',
+                tech: ['PHP', 'MySQL', 'JavaScript', 'WordPress', 'SEO']
+            },
+            {
+                title: 'NoAtaque Apostas',
+                thumbnail: '/NoAtaqueApostasThumbnail.webp',
+                description: 'Un sitio web de parceria SEO-driven enfocado en performance y accesibilidad construido con un stack personalizado utilizando PHP, MySQL, JavaScript y WordPress durante mi tiempo en OddsScanner Group.',
+                link: 'https://noataque.com.br/apostas/',
+                tech: ['PHP', 'MySQL', 'JavaScript', 'WordPress', 'SEO', 'Performance']
             }
         ],
         footer: {
-            text: 'Construido con',
-            links: [
-                { name: 'React', url: 'https://reactjs.org' },
-                { name: 'Tailwind CSS', url: 'https://tailwindcss.com' },
-                { name: 'Vite', url: 'https://vitejs.dev' },
-                { name: 'Vercel', url: 'https://vercel.com' }
-            ]
+            text: 'Construido con <a href="https://react.dev/" target="_blank" rel="noreferrer">React</a> & <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">Tailwind CSS</a>, desarrollado con <a href="https://vite.dev/" target="_blank" rel="noreferrer">Vite</a> & <a href="https://antigravity.google/" target="_blank" rel="noreferrer">Antigravity</a>, implementado con <a href="https://vercel.com" target="_blank" rel="noreferrer">Vercel</a>, y hecho por <a href="https://github.com/ZeInacioCB" target="_blank" rel="noreferrer">Ze Inácio Castelo Branco</a>'
         },
         viewResume: 'Ver Currículum Completo',
         resumeUrl: '/resume-es.pdf'
