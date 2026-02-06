@@ -26,7 +26,9 @@ function LanguageSwitcher() {
 
         if (isOpen) {
             document.addEventListener('mousedown', handleClickOutside);
-            document.body.style.overflow = 'hidden';
+            if (isMobile) {
+                document.body.style.overflow = 'hidden';
+            }
         } else {
             document.removeEventListener('mousedown', handleClickOutside);
             document.body.style.overflow = '';

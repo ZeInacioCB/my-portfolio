@@ -66,6 +66,7 @@
 
   /* Applying smooth scroll to the html tag */
   scroll-behavior: smooth;
+  scrollbar-gutter: stable;
 }
 
 body {
