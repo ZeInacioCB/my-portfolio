@@ -1,3 +1,5 @@
+import CardTechChips from './CardTechChips';
+
 function ProjectCard({ project }) {
     return (
         <li className="mb-12">
@@ -21,6 +23,7 @@ function ProjectCard({ project }) {
                     <p className="mt-2 text-sm leading-normal text-text-main">
                         {project.description}
                     </p>
+                    <CardTechChips tech={project.tech} />
                 </div>
                 <img
                     src={project.thumbnail}
